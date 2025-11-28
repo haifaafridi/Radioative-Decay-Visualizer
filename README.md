@@ -5,7 +5,7 @@ This project combines **physics concepts, data structures (Linked List), probabi
 
 ---
 
-## 🚀 Features
+##  Features
 
 ✅ Real half-life based simulation  
 ✅ Built-in isotopes + Custom half-life option  
@@ -17,7 +17,7 @@ This project combines **physics concepts, data structures (Linked List), probabi
 
 ---
 
-## 🧪 Supported Isotopes
+##  Supported Isotopes
 
 - Carbon-14  
 - Uranium-238  
@@ -38,20 +38,15 @@ This project combines **physics concepts, data structures (Linked List), probabi
 
 This simulation uses the **exponential decay law**:
 
-\[
-P = 1 - e^{-\lambda \Delta t}
-\]
+P=1−e−λΔt
 
-Where:
 
-- \(\lambda = \frac{\ln(2)}{T_{1/2}}\)
-- \(\Delta t = \frac{T_{1/2}}{50}\)
 
 Each atom has a random chance to decay during every time step based on this probability.
 
 ---
 
-## 📊 What the App Shows
+##  What the App Shows
 
 - **Remaining atoms**
 - **Decayed atoms**
@@ -65,11 +60,12 @@ Each atom has a random chance to decay during every time step based on this prob
 
 The project uses a **custom Linked List** to track decayed atoms efficiently:
 
-```python
+
 class Node:
    atom_id
    decay_step
    next
+   
 This allows:
 
 Fast appends
@@ -78,7 +74,7 @@ Efficient tracking
 
 Step-wise decay analysis
 
-🖥️ Technologies Used
+ Technologies Used
 Python 3
 
 Tkinter
@@ -104,7 +100,7 @@ Copy code
 python main.py
 (Rename your python file to main.py for GitHub clarity.)
 
-🧑‍💻 How To Use
+How To Use
 Select an isotope from the dropdown
 
 Enter number of atoms
@@ -118,14 +114,11 @@ View graph and stats on the right
 For Custom isotope, type your own half-life value.
 
 📸 UI Preview
-(Add screenshot here later)
 
-markdown
-Copy code
-![App Screenshot](screenshot.png)
+<img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/7ef65ab5-09e1-41d4-928c-709a06a7b094" />
+
 🧩 Project Structure
-text
-Copy code
+
 radioactive-decay-simulator/
 │
 ├── main.py
