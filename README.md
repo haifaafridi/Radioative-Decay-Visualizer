@@ -34,7 +34,7 @@ This project combines **physics concepts, data structures (Linked List), probabi
 
 ---
 
-## 🧠 Physics Behind the Simulation
+##  Physics Behind the Simulation
 
 This simulation uses the **exponential decay law**:
 
@@ -87,15 +87,15 @@ Object-Oriented Programming
 
 Linked Lists
 
-📦 Installation
+## Installation
 Install required library first:
 
-bash
+
 Copy code
 pip install matplotlib
 Then run your program:
 
-bash
+
 Copy code
 python main.py
 (Rename your python file to main.py for GitHub clarity.)
@@ -113,11 +113,11 @@ View graph and stats on the right
 
 For Custom isotope, type your own half-life value.
 
-📸 UI Preview
+## UI Preview
 
 <img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/7ef65ab5-09e1-41d4-928c-709a06a7b094" />
 
-🧩 Project Structure
+## Project Structure
 
 radioactive-decay-simulator/
 │
